@@ -15,7 +15,7 @@ root.render(
         <GoogleOAuthProvider clientId="868373291629-e5piuqgom32dbo66062hrnu2iibgcvqp.apps.googleusercontent.com">
             <Provider store={globalStore}>
                 <PersistGate loading={null} persistor={persistor}>
-                    <HashRouter basename="google-auth-web">
+                    <HashRouter basename="test-google-auth-web">
                         <App />
                     </HashRouter>
                 </PersistGate>
